@@ -1,0 +1,36 @@
+<?php include_once("menu.html"); ?>
+<?php
+require 'contact.php';
+?>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="PHP form">
+        <title>Contact us</title>
+        <link href="form/app/css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <img src="../app/images/logo.png" alt="Mountain madness">
+            </div>
+        </header>
+    </body>
+    <main>
+    <div class="container">
+    <form id="contact" action="form/public/contact.php" method="POST">
+        <h3>Let's get in touch</h3>
+        <h4>Book a tour or learn more</h4>
+        <p><input type="text" name="name" placeholder="Your full name" required autofocus></p>
+        <p><input type="email" name="email" placeholder="Your email address" required></p>
+        <p><textarea name="message" placeholder="Your message..." required></textarea></p>
+        <p><button type="submit" name="submit" id="contact-submit">Send</button></p>
+    </form>
+    </div>
+</main>
+
+ <?php include_once 'footer.php'; ?>
+
+</html>

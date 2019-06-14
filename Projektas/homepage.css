@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box;
+}
+
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+    background: url(4k-wallpaper-adventure-climb-691668%20copy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    background-position: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navcontainer {
+    display: flex;
+    float:inherit;
+    vertical-align: middle;
+    border: none;
+    overflow: auto;
+}
+.topnav {
+    display: inline-block;
+    float: right;
+    vertical-align: middle;
+    overflow: auto;
+}
+
+.navcontainer .topnav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+    background: rgba(2,2,2,0.2);
+    vertical-align: middle;
+    overflow: auto;
+}
+.topnav a {
+    display: inline-flex;
+    float: center;
+    padding: 2px;
+    margin: 10px;
+    vertical-align: middle;
+    align-items: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    color: whitesmoke;
+    overflow: auto;
+}
+
+.topnav a:hover {
+    background-color: #5f9ea0; !important;
+    color: #000;
+}
+
+.topnav a:active {
+    color: darkgreen;
+}
+
+.search-container {
+    display: inline-flex;
+    float: right;
+    padding: 5px;
+    float: right;
+    color: #f2f2f2;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+/*.topnav .search-container {
+    vertical-align: middle;
+} */
+
+.search-container input {
+    float: left;
+    padding: 0px 0px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.search-container button {
+    float: right;
+    padding: 2px 2px 2px 2px;
+    height: 25px;
+    background-color: rgba(2,2,2,0);
+    border: none;
+    cursor: pointer;
+}
+
+#magnifier {
+    width: 25px;
+    height: 25px;
+}
+
+.hero-text {
+    position: absolute;
+    left: 0;
+    top: 55%;
+    width: 100%;
+    text-align: center;
+    font-size: 6vw;
+}
+
+.hero-sub {
+    position: absolute;
+    left: 0;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.hero-title {
+    position: absolute;
+    left: 0;
+    top: 47%;
+    width: 100%;
+    text-align: center;
+    font-size: 2vw;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 700px) {
+
+    .navcontainer .topnav {
+        display: inline-block;
+    }
+
+    a {
+        display: inline-block;;
+      max-width: inherit;
+        height: inherit;
+        float: inherit;
+        text-align: center;
+    }
+}
+
+</style>
+</html>
